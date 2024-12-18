@@ -2,7 +2,10 @@ name: 09 - Using Functions
 
 on:
   push:
-  workflow_dispatch: 
+  workflow_dispatch:
+  schedule: 
+      - cron: '*/5 * * * *'
+
 
 jobs:
   echo1:
