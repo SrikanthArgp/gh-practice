@@ -12,6 +12,7 @@ jobs:
           echo "Runner OS: $RUNNER_OS"
   windows-echo:
     runs-on: windows-latest
+    needs: ubuntu-echo
     steps:
       - name: Show OS
         shell: bash
@@ -20,6 +21,7 @@ jobs:
           echo "Runner OS: $RUNNER_OS"
   mac-echo:
     runs-on: macos-latest
+    needs: windows-echo
     steps:
       - name: Show OS
         run: |
