@@ -1,6 +1,6 @@
 name: Introduction
 
-on: push
+on: workflow_dispatch
 
 jobs:
     echo-hello:
