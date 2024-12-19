@@ -1,12 +1,12 @@
-name: 10 - Controlling the Execution Flow
+name: Controlling the Execution Flow
 
 on:
-  workflow_dispatch:
+  push:
     inputs:
       pass-unit-tests:
-        type: boolean
-        description: Whether unit tests will pass or not
-        default: true
+      type: boolean
+      description: Whether unit tests will pass or not
+      default: true
 
 jobs:
   lint-build:
