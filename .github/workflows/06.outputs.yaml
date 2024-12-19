@@ -1,4 +1,4 @@
-name: Outputs
+name: 06 Outputs
 
 on:
   workflow_dispatch:
