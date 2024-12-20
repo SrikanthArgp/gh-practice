@@ -1,7 +1,7 @@
 # See 14-artifacts/README.md for more information
 # about how to work with artifacts in workflows.
 
-name: 14 - Working with Artifacts
+name: Artifacts
 
 on:
   workflow_dispatch:

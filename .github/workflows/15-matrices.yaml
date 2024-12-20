@@ -1,7 +1,7 @@
 # See 15-matrices/README.md for more information
 # about how to leverage matrices within workflows.
 
-name: 15 - Working with Matrices
+name: Matrices
 
 on:
   workflow_dispatch:
